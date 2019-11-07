@@ -3,46 +3,51 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="initial-scale=1.0, width=device-width">
+	<link rel="stylesheet" href="fonts.css">
+	<link rel="stylesheet" href="style.css">
 	<title>Tesla Model S</title>
 </head>
 <body>
 	<header class="header">
     <img class="header__image" alt="tesla-logo" src="images/Tesla-Wordmark-Red.png">
     <nav class="header__menu">
-        <a class="menu__link" href="#">Model S</a>
+        <a class="menu__link menu__link-models" href="#">Model S</a>
         <a class="menu__link" href="#">Model X</a>
         <a class="menu__link" href="#">Model 3</a>
         <a class="menu__link" href="#">Roadster</a>
         <a class="menu__link" href="#">Energy</a>
     </nav>
     <nav class="header__menu-side">
-        <a class="menu__link" href="#">Магазин</a>
-        <a class="menu__link" href="#">Войти</a>
+        <a class="menu__link-side" href="#">Магазин</a>
+        <a class="menu__link-side" href="#">Войти</a>
+        <a class="menu__link-side-mobile" href="#"><img src="images/burg.png" alt="menu" class="menu__image"></a>
     </nav>
 </header>
 <section class="section-first">
 	<h1 class="section-first__header">Model S</h1>
-	<p class="section-first__subheader">Добро пожаловать в будущее!</p>
-	<img class="section-first__teslaimg" alt="Tesla Model S" src="images/tesla-png-tesla-png-hd-1636.png">
+	<h2 class="section-first__subheader">Добро пожаловать в будущее!</h2>
+	<img class="section-first__teslaimg" alt="Tesla Model S" src="images/Tesla logo + car.png">
 
 	<div class="specifications">
 
 		<div class="specifications__speed">
-			<img src="images/Speed.png" alt="Speed" class="specification-speed__img">
-			<p class="specification__number">2,7 <span class="specification__measure">сек</span></p>
-			<p class="specification__description">0-100 км/час</p>
+			<img src="images/Speed.png" alt="Speed" class="specifications-speed__img">
+			<p class="specifications__number">2,7 <span class="specifications__measure">сек</span></p>
+			<div class="specifications__description">0-100 км/час</div>
 		</div>
 
 		<div class="specifications__road">
             <img src="images/Road icon.png" alt="Road" class="specifications-road__img">
             <p class="specifications__number">632 <span class="specifications__measure">км</span></p>
-            <p class="specifications__description">запас хода</p>
+            <div class="specifications__description">запас хода</div>
         </div>
 
-        <div class="specification__test">
-        	<img src="images/steering-wheel.png" alt="Wheel" class="specification-test__wheel">
-        	<p class="specification-test__drive">ТЕСТ ДРАЙВ</p>
-        	<button class="specification-test__button">ЗАКАЗАТЬ</button>
+        <div class="specifications__test">
+        	<img src="images/steering-wheel.png" alt="Wheel" class="specifications-test__wheel">
+        	<button class="specifications__test-drive">ТЕСТ ДРАЙВ</button>
+        </div>
+        <div class="specifications-test__button-border">
+        	<button class="specifications-test__button">ЗАКАЗАТЬ</button>
         </div>
     </div>
 </section>    
