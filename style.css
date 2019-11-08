@@ -32,6 +32,7 @@ body {
     border-color: #E51937;
     border-radius: 4px;
     color: #E51937;
+    text-decoration: none;
 }
 
 .menu__link-side {
@@ -39,7 +40,6 @@ body {
     font-weight: 600;
     line-height: normal;
     font-size: 15px;
-    text-decoration: none;
     color: #000000;
     margin: 10px 10px auto;
 }
@@ -57,7 +57,7 @@ body {
     text-align: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 961px) {
     .header {
         min-width: 330px;
         max-width: 100%;
@@ -214,7 +214,7 @@ body {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 961px) {
     .section-first__header {
         line-height: 110px;
         font-size: 61px;
@@ -223,7 +223,7 @@ body {
     .section-first__subheader {
         line-height: 10px;
         font-size: 12px;
-        margin: -5% auto;
+        margin: auto;
     }
 
     .section-first__teslaimg {
