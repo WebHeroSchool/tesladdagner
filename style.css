@@ -42,6 +42,7 @@ body {
     font-size: 15px;
     color: #000000;
     margin: 10px 10px auto;
+    text-decoration: none;
 }
 
 .menu__link-side-mobil {
@@ -112,9 +113,9 @@ body {
 
 .specifications {
     display: flex;
-    margin: -2% 22% 60px 22%;
+    margin: -2% 19% 60px 19%;
     padding: 5% 0;
-    min-width: 377px;
+    min-width: 620px;
     max-width: 100%;
     justify-content: space-around;
     align-content: center;
@@ -213,6 +214,11 @@ body {
     content: url(images/steering-wheel-red.png);
 }
 
+.specifications__line {
+    display: flex;
+    justify-content: space-around;
+}
+
 
 @media screen and (max-width: 961px) {
     .section-first__header {
@@ -232,17 +238,17 @@ body {
 
     .specifications {
         display: flex;
-        margin: -2% 5% 60px;
+        margin: auto;
         padding: 5% 0;
-        min-width: 340px;
-        max-width: 100%;
-        justify-content: center;
+        min-width: 280px;
+        max-width: 55%;
+        justify-content: space-around;
         align-content: center;
         flex-wrap: wrap;
     }
 
     .specifications__speed {
-        width: 150px;
+        width: 120px;
     }
 
     .specifications-speed__img {
@@ -261,7 +267,7 @@ body {
     }
 
     .specifications__road {
-        width: 150px;
+        width: 120px;
     }
 
     .specifications-road__img {
@@ -281,6 +287,22 @@ body {
         padding-left: 15%;
         font-weight: normal;
         font-size: 10px;
+    }
+
+    .specifications__test {
+        margin-left: 0;
+    }
+
+    .specifications-test__button-border {
+        width: 175px;
+        margin-left: -20%;
+    }
+
+    .specifications__line {
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        margin: auto;
     }
 
 }
