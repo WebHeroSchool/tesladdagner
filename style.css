@@ -117,17 +117,16 @@ body {
 
 .specifications {
     display: flex;
-    margin: -2% 19% 60px 19%;
     padding: 5% 0;
     min-width: 620px;
     max-width: 100%;
-    justify-content: space-around;
+    justify-content: center;
     align-content: center;
     flex-wrap: wrap;
 }
 
 .specifications__speed {
-    width: 150px;
+    width: 230px;
 }
 
 .specifications-speed__img {
@@ -149,7 +148,7 @@ body {
 }
 
 .specifications__road {
-    width: 150px;
+    width: 230px;
 }
 
 .specifications-road__img {
@@ -223,6 +222,13 @@ body {
     justify-content: space-around;
 }
 
+.vector {
+    width: 28px;
+    height: 14px;
+    margin: -2% auto auto;
+
+}
+
 
 @media screen and (max-width: 961px) {
     .section-first__header {
@@ -252,7 +258,7 @@ body {
     }
 
     .specifications__speed {
-        width: 120px;
+        width: 160px;
     }
 
     .specifications-speed__img {
@@ -271,7 +277,7 @@ body {
     }
 
     .specifications__road {
-        width: 120px;
+        width: 140px;
     }
 
     .specifications-road__img {
