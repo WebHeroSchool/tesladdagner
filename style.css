@@ -58,6 +58,10 @@ body {
     text-align: center;
 }
 
+.menu__image {
+    margin-top: 20%
+}
+
 @media screen and (max-width: 961px) {
     .header {
         min-width: 330px;
@@ -295,7 +299,7 @@ body {
 
     .specifications-test__button-border {
         width: 175px;
-        margin-left: -20%;
+        margin-left: 0;
     }
 
     .specifications__line {
