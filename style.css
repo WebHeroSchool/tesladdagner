@@ -19,7 +19,7 @@ body {
 
 .menu__link {
     font-style: normal;
-    font-weight: 600;
+    font-weight: 800;
     line-height: normal;
     font-size: 15px;
     text-decoration: none;
@@ -37,7 +37,7 @@ body {
 
 .menu__link-side {
     font-style: normal;
-    font-weight: 600;
+    font-weight: 800;
     line-height: normal;
     font-size: 15px;
     color: #000000;
@@ -59,7 +59,8 @@ body {
 }
 
 .menu__image {
-    margin-top: 20%
+    margin-top: 20%;
+    margin-left: 50%;
 }
 
 @media screen and (max-width: 961px) {
@@ -137,13 +138,13 @@ body {
 }
 
 .specifications__number {
-    font-weight: 600;
+    font-weight: 900;
     font-size: 35px;
     margin: 2px 0 0;
 }
 
 .specifications__measure {
-    font-weight: 600;
+    font-weight: 900;
     font-size: 20px;
 }
 
@@ -168,7 +169,7 @@ body {
 .specifications__description {
     padding-left: 15%;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .specifications__test {
@@ -314,5 +315,18 @@ body {
         align-content: center;
         margin: auto;
     }
+
+    .specifications-test__button {
+        background-color: #E51937;
+        color: white;
+    }
+
+    .specifications-test__wheel {
+        content: url(images/steering-wheel-red.png);
+    }  
+    
+    .specifications__test-drive {
+        color: #E51937;
+    }  
 
 }
